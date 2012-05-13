@@ -13,7 +13,10 @@
   }
 , "author": "Orlin M Bozhinov <om@soundsapiens.com> (http://soundsapiens.com)"
 , "contributors": []
-, "dependencies": { "coffee-script": "*" }
+, "dependencies":
+  { "coffee-script": "*"
+  , "colors": "*"
+  }
 , "bin": { "fertilize" : "./cli.js" }
 , "os" : [ "aix", "freebsd", "linux", "macos", "solaris" ]
 , "engines" : { "node" : "0.6.x", "npm": "1.1.x" }
