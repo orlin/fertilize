@@ -1,0 +1,21 @@
+{ "name": "fertilize"
+, "description": "retry the same thing, expect different results"
+, "keywords": [ "process", "spawn", "retry" ]
+, "version": "0.1.0"
+, "homepage": "http://github.com/orlin/fertilize"
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/orlin/fertilize.git"
+  }
+, "bugs":
+  { "mail": "om@soundsapiens.com"
+  , "url" : "http://github.com/orlin/fertilize/issues"
+  }
+, "author": "Orlin M Bozhinov <om@soundsapiens.com> (http://soundsapiens.com)"
+, "contributors": []
+, "dependencies": { "coffee-script": "*" }
+, "bin": { "fertilize" : "./cli.js" }
+, "os" : [ "aix", "freebsd", "linux", "macos", "solaris" ]
+, "engines" : { "node" : "0.6.x", "npm": "1.1.x" }
+, "licenses": [ { "type": "Unlicense", "url" : "http://unlicense.org/" } ]
+}
